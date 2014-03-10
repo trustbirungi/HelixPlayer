@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    >
+
+    <Button
+        android:id="@+id/homeButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Home" />
+    
+    <ListView
+		android:id="@android:id/list"  
+	    android:layout_width="fill_parent" 
+	    android:layout_height="0dp"
+	    android:layout_weight="1"
+	    android:textStyle="bold"
+	    android:divider="#242424"
+        android:dividerHeight="1dp"
+        android:listSelector="@drawable/list_selector"
+    	/>
+    
+</LinearLayout>

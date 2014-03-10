@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, AndroidBuildingMusicPlayerActivity!</string>
+    <string name="app_name">Helix Player</string>
+    <string name="link_button">Link to Dropbox</string>
+    
+    <string-array name="menu">
+		<item>Add To Dropbox</item>
+		<item>Set As Ringtone</item>
+		<item>Set As Alarm Sound</item>
+		<item>Set As Notification Sound</item>
+	</string-array>
+
+</resources>

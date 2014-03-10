@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="#4a4a4a"> 
+    
+    <!-- Player Header -->
+    <LinearLayout 
+        android:id="@+id/player_header_bg"
+        android:layout_width="fill_parent"
+        android:layout_height="60dip"
+        android:background="@layout/bg_player_header"
+        android:layout_alignParentTop="true"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp">
+        
+        <!-- Song Title -->
+
+        <TextView 
+            android:id="@+id/songTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#04b3d2"
+            android:textSize="16dp"
+            android:paddingLeft="10dp"
+            android:textStyle="bold"
+            android:text="INTERNET RADIO"
+            android:layout_marginTop="10dp"/>"
+        
+    </LinearLayout>
+    
+    <!-- Song Thumbnail Image -->
+    <LinearLayout 
+        android:id="@+id/songThumbnail"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:gravity="center"
+        android:layout_below="@id/player_header_bg">
+    	<ImageView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/adele"/>    
+    </LinearLayout>
+    
+    <!-- Player Footer -->
+    <LinearLayout 
+        android:id="@+id/player_footer_bg"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:background="@layout/bg_player_footer"
+        android:gravity="center">
+    	
+        <!-- Player Buttons -->
+        <LinearLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:background="@layout/rounded_corner"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp">
+           
+            
+            <!-- Pause Button -->
+            <ImageButton 
+                android:id="@+id/btnPause"
+                android:src="@drawable/img_btn_pause"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"/>
+            
+            
+            <!-- Play Button -->
+            <ImageButton 
+                android:id="@+id/btnPlay"
+                android:src="@drawable/img_btn_play"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"/>
+            
+            <!-- Stop Button -->
+            <ImageButton 
+                android:id="@+id/btnStop"
+                android:src="@drawable/img_btn_stop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"/>
+        </LinearLayout>
+    
+   </LinearLayout>
+</RelativeLayout>

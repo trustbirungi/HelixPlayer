@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry kind="lib" path="G:/Code Libraries/dropbox-android-sdk-1.5.4/lib/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="G:/Code Libraries/dropbox-android-sdk-1.5.4/lib/dropbox-android-sdk-1.5.4.jar"/>
+	<classpathentry kind="lib" path="G:/Code Libraries/dropbox-android-sdk-1.5.4/lib/httpclient-4.0.3.jar"/>
+	<classpathentry kind="lib" path="G:/Code Libraries/dropbox-android-sdk-1.5.4/lib/httpcore-4.0.1.jar"/>
+	<classpathentry kind="lib" path="G:/Code Libraries/dropbox-android-sdk-1.5.4/lib/httpmime-4.0.3.jar"/>
+	<classpathentry kind="lib" path="G:/Code Libraries/dropbox-android-sdk-1.5.4/lib/json_simple-1.1.jar"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>
